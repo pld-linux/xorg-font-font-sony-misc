@@ -1,4 +1,4 @@
-# $Rev: 3217 $, $Date: 2005-08-15 12:17:57 $
+# $Rev: 3217 $, $Date: 2005-08-27 17:42:48 $
 #
 Summary:	font-sony-misc
 Summary(pl):	font-sony-misc
@@ -17,7 +17,7 @@ BuildRequires:	xorg-font-font-util
 BuildRequires:	xorg-app-mkfontdir
 BuildRequires:	xorg-app-mkfontscale
 BuildRequires:	xorg-util-util-macros
-BuildRequires:	pkg-config
+BuildRequires:	pkgconfig >= 0.19
 BuildRoot:	%{tmpdir}/font-sony-misc-%{version}-root-%(id -u -n)
 
 %description

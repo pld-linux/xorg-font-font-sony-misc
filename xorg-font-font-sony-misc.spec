@@ -1,16 +1,15 @@
 Summary:	sony-misc font
 Summary(pl):	Font sony-misc
 Name:		xorg-font-font-sony-misc
-Version:	0.99.1
+Version:	1.0.0
 Release:	0.1
 License:	MIT
 Group:		Fonts
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/font/font-sony-misc-%{version}.tar.bz2
-# Source0-md5:	83a05cd92a00ea6a93202909f572526f
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/font/font-sony-misc-%{version}.tar.bz2
+# Source0-md5:	0dfddd1a946e4497f009094c0ae1bdd5
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
-BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-app-bdftopcf
 BuildRequires:	xorg-app-mkfontdir
 BuildRequires:	xorg-app-mkfontscale

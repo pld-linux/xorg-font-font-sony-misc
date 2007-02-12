@@ -1,5 +1,5 @@
 Summary:	sony-misc font
-Summary(pl.UTF-8):   Font sony-misc
+Summary(pl.UTF-8):	Font sony-misc
 Name:		xorg-font-font-sony-misc
 Version:	1.0.0
 Release:	0.1

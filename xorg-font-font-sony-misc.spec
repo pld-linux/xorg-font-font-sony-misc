@@ -1,5 +1,5 @@
 Summary:	sony-misc font
-Summary(pl):	Font sony-misc
+Summary(pl.UTF-8):   Font sony-misc
 Name:		xorg-font-font-sony-misc
 Version:	1.0.0
 Release:	0.1
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 sony-misc font.
 
-%description -l pl
+%description -l pl.UTF-8
 Font sony-misc.
 
 %prep

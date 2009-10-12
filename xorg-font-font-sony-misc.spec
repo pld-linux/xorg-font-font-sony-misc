@@ -1,12 +1,12 @@
 Summary:	Sony fixed bitmap fonts
 Summary(pl.UTF-8):	Fonty bitmapowe Sony o stałej szerokości
 Name:		xorg-font-font-sony-misc
-Version:	1.0.0
-Release:	2
+Version:	1.0.1
+Release:	1
 License:	MIT
 Group:		Fonts
 Source0:	http://xorg.freedesktop.org/releases/individual/font/font-sony-misc-%{version}.tar.bz2
-# Source0-md5:	0dfddd1a946e4497f009094c0ae1bdd5
+# Source0-md5:	7b6f5117814599b86ed3470de6c62aa3
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -37,6 +37,8 @@ ISO-8859-1 (łacińskim) i JISX 0201.1976 (japońskim).
 %{__autoconf}
 %{__automake}
 %configure \
+	--build=%{_host_platform} \
+	--host=%{_host_platform} \
 	--with-fontdir=%{_fontsdir}/misc
 
 %{__make}
